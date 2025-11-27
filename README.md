@@ -82,13 +82,7 @@ I focused on understanding how pricing strategies, category types, product quali
 
 \- Created rating buckets for comparison
 
-\- Engineered additional fields such as:
-
-discount_amount
-
-is_high_rating
-
-log_rating_count
+\- Engineered additional fields such as: discount_amount - is_high_rating - log_rating_count
 
 \- Cleaned review text using NLTK for NLP visualizations
 
@@ -117,7 +111,7 @@ Insights:
 ![Rating Distribution](images/rating_distribution_name.png)
 
 
-\### \*\*Top 10 Categories by Product Count\*\*
+### \*\*Top 10 Categories by Product Count\*\*
 Purpose:
   - Identify the categories with the highest number of products.
   - Understand supply-side concentration.
@@ -157,7 +151,7 @@ Key Findings:
 
 ![Correlation Heatmap](images/correlation_heatmap.png)
 
-\### \*\*Price vs Rating (Colored by Discount %)\*\*
+### \*\*Price vs Rating (Colored by Discount %)\*\*
 Purpose:
   - Explore how price relates to rating.
   - Observe if discount percentage affects rating patterns.
@@ -192,7 +186,7 @@ Insights:
 
 ![Category Share Donut](images/category_share_donut.png)
 
-\### \*\*Discount % by Rating Bucket\*\*
+### \*\*Discount % by Rating Bucket\*\*
 Purpose:
   - Compare discount levels across different rating groups.
 
@@ -213,7 +207,7 @@ Insights:
 ![Discount Distribution by Category](images/discount_distribution_by_category.png)
 
 
-\### \*\*Discount Percentage vs Rating\*\*
+### \*\*Discount Percentage vs Rating\*\*
 Purpose:
   - Examine whether discount percentage influences product rating.
 
@@ -295,6 +289,7 @@ Emre Aksu
 GitHub: https://github.com/emreaksua/
 
 LinkedIn: https://www.linkedin.com/in/emreaksuecon/
+
 
 
 
