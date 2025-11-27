@@ -36,7 +36,7 @@ amazon-sales-analysis/
     ├── word_cloud_of_amazon.png
 ```
 
-\## Dataset Overview
+## Dataset Overview
 The dataset includes thousands of Amazon products and contains:
 
 \- Product name
@@ -57,7 +57,7 @@ The dataset includes thousands of Amazon products and contains:
 
 I focused on understanding how pricing strategies, category types, product quality, and customer engagement relate to each other.
 
-\## Key Questions
+## Key Questions
 
 1\- What does the overall rating distribution look like?
 
@@ -72,7 +72,7 @@ I focused on understanding how pricing strategies, category types, product quali
 6\- What do customers commonly talk about in their reviews (NLP)?
 
 
-\## Data Preparation Summary
+## Data Preparation Summary
 
 \- Loaded dataset from data/amazon_sales_dataset.csv
 
@@ -95,7 +95,7 @@ log_rating_count
 \- All details are in the notebook
 
 
-\## Visual Analysis
+## Visual Analysis
 
 
 
@@ -103,7 +103,7 @@ log_rating_count
 
 
 
-\### \*\*Rating Distribution\*\*
+### \*\*Rating Distribution\*\*
 
 Purpose:
   - Understand overall customer sentiment.
@@ -129,7 +129,7 @@ Insights:
 ![Top 10 Categories by Product Count](images/top_ten_by_product.png)
 
 
-\### \*\*Top 10 Most Reviewed Categories\*\*
+### \*\*Top 10 Most Reviewed Categories\*\*
 Purpose:
   - Measure popularity based on total review count.
   - Identify categories with the highest customer interaction.
@@ -141,7 +141,7 @@ Insights:
 ![Top 10 Most Reviewed Categories](images/top_ten_most_reviewed.png)
 
 
-\### \*\*Correlation Heatmap\*\*
+### \*\*Correlation Heatmap\*\*
 Variables analyzed:
   - actual_price
   - discounted_price
@@ -170,7 +170,7 @@ Insights:
 
 ![Price vs Rating Colored](images/price_vs_rating_colored.png)
 
-\### \*\*Category Performance Bubble Chart\*\*
+### \*\*Category Performance Bubble Chart\*\*
 Metrics calculated per category:
   - Average discount percentage
   - Average rating
@@ -182,7 +182,7 @@ Insights:
 
 ![Category Bubble Chart](images/category_bubble_chart.png)
 
-\### \*\*Category Share Donut Chart\*\*
+### \*\*Category Share Donut Chart\*\*
 Purpose:
   - Show proportional representation of major product categories.
 
@@ -202,7 +202,7 @@ Insights:
 
 ![Discount by Rating Bucket](images/discount_by_rating_bucket.png)
 
-\### \*\*Discount % Distribution for Top Categories\*\*
+### \*\*Discount % Distribution for Top Categories\*\*
 Purpose:
   - Understand how discount approaches vary between product types.
 
@@ -224,7 +224,7 @@ Insights:
 
 ![Discount Percentage vs Rating](images/discount_percentage_rating.png)
 
-\### \*\*High vs Low Rated Product Discounts\*\*
+### \*\*High vs Low Rated Product Discounts\*\*
 Groups:
   - High-rated: rating >= 4.0
   - Low-rated: rating < 4.0
@@ -235,7 +235,7 @@ Insights:
 
 ![High vs Low Rating Product](images/high_low_rating_product.png)
 
-\### \*\*Pairplot of Key Numerical Features\*\*
+### \*\*Pairplot of Key Numerical Features\*\*
 Variables visualized:
   - actual_price
   - discounted_price
@@ -251,7 +251,7 @@ Insights:
 ![Pairplot Features](images/pairplot_features.png)
 
 
-\### \*\*Price vs Rating Count (Log Scale)\*\*
+### \*\*Price vs Rating Count (Log Scale)\*\*
 Purpose:
   - Explore how product price relates to review volume.
   - Use log-scale to normalize skewed review counts.
@@ -262,7 +262,7 @@ Insights:
 
 ![Price vs Rating Count](images/price_rating_count.png)
 
-\### \*\*Word Cloud of Customer Reviews\*\*
+### \*\*Word Cloud of Customer Reviews\*\*
 Steps:
   - Clean review text
   - Remove stopwords
@@ -295,6 +295,7 @@ Emre Aksu
 GitHub: https://github.com/emreaksua/
 
 LinkedIn: https://www.linkedin.com/in/emreaksuecon/
+
 
 
 
