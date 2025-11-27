@@ -34,6 +34,7 @@ amazon-sales-analysis/
     ├── top_ten_by_product.png
     ├── top_ten_most_reviewed.png
     ├── word_cloud_of_amazon.png
+```
 
 \## Dataset Overview
 The dataset includes thousands of Amazon products and contains:
@@ -294,6 +295,7 @@ Emre Aksu
 GitHub: https://github.com/emreaksua/
 
 LinkedIn: https://www.linkedin.com/in/emreaksuecon/
+
 
 
 
